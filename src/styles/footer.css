@@ -1,0 +1,31 @@
+.footer {
+  background-color: var(--color-violet);
+  color: var(--color-white);
+  padding: var(--space-8) 0;
+}
+
+.footer__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+}
+
+.footer__langues {
+  font-size: var(--text-sm);
+  font-style: italic;
+  opacity: 0.85;
+}
+
+.footer__copy {
+  font-size: var(--text-xs);
+  opacity: 0.6;
+}
+
+@media (max-width: 600px) {
+  .footer__inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

@@ -1,0 +1,59 @@
+.apropos {
+  background-color: var(--color-lavande);
+  padding: var(--space-12) 0 var(--space-24);
+}
+
+.apropos__inner {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: var(--space-16);
+  align-items: start;
+}
+
+.apropos__citation-bloc {
+  position: sticky;
+  top: calc(var(--navbar-height) + var(--space-8));
+}
+
+.apropos__citation {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: var(--text-2xl);
+  line-height: 1.35;
+  color: var(--color-violet);
+  border-left: 4px solid var(--color-violet);
+  padding-left: var(--space-6);
+}
+
+.apropos__titre {
+  font-family: var(--font-display);
+  font-style: italic;
+  margin-bottom: var(--space-8);
+}
+
+.apropos__texte-bloc {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.apropos__texte-bloc p {
+  font-size: var(--text-base);
+  line-height: 1.8;
+  color: var(--color-black);
+}
+
+@media (max-width: 900px) {
+  .apropos__inner {
+    grid-template-columns: 1fr;
+    gap: var(--space-10);
+  }
+
+  .apropos__citation-bloc {
+    position: static;
+  }
+
+  .apropos__citation {
+    font-size: var(--text-xl);
+  }
+}

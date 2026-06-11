@@ -1,0 +1,85 @@
+export const parcours = {
+  experiences: [
+    {
+      periode: "Depuis sept. 2025",
+      periodeEn: "Since Sept. 2025",
+      poste: "Enseignante sciences du numérique",
+      posteEn: "Digital sciences teacher",
+      lieu: "Collège/Lycée Parenthèse, Strasbourg",
+    },
+    {
+      periode: "Déc. 2022 – Août 2024",
+      periodeEn: "Dec. 2022 – Aug. 2024",
+      poste: "Ingénieure pour l'enseignement numérique",
+      posteEn: "Digital education engineer",
+      lieu: "Université de Lorraine, Nancy",
+    },
+    {
+      periode: "Fév. 2021 – Avr. 2022",
+      periodeEn: "Feb. 2021 – Apr. 2022",
+      poste: "Ingénieure pédagogique",
+      posteEn: "Instructional designer",
+      lieu: "Université de Haute Alsace, Colmar",
+    },
+    {
+      periode: "Oct. 2019 – Oct. 2020",
+      periodeEn: "Oct. 2019 – Oct. 2020",
+      poste: "Apprentissage direction du numérique",
+      posteEn: "Digital department apprenticeship",
+      lieu: "Université de Strasbourg",
+    },
+  ],
+  formation: [
+    {
+      periode: "Avr. 2026",
+      periodeEn: "Apr. 2026",
+      diplome: "Certification IAG",
+      diplomeEn: "AI certification",
+      lieu: "Certifopac · RS6891 · Code NSF 320",
+    },
+    {
+      periode: "2019 – 2020",
+      periodeEn: "2019 – 2020",
+      diplome: "Master Sciences de l'Éducation — ISNVA (major de promotion)",
+      diplomeEn: "Master in Education Sciences — ISNVA (valedictorian)",
+      lieu: "Ingénierie des Systèmes Numériques Virtuels pour l'Apprentissage",
+    },
+    {
+      periode: "2018",
+      periodeEn: "2018",
+      diplome: "Licence Sciences de l'Éducation",
+      diplomeEn: "Bachelor in Education Sciences",
+      lieu: "3ème année à distance",
+    },
+    {
+      periode: "2016 – 2017",
+      periodeEn: "2016 – 2017",
+      diplome: "DUT Génie Électrique et Informatique Industrielle",
+      diplomeEn: "Associate degree in Electrical Engineering & Industrial IT",
+      lieu: "",
+    },
+  ],
+  engagement: [
+    {
+      periode: "Depuis sept. 2025",
+      periodeEn: "Since Sept. 2025",
+      role: "Bénévole",
+      roleEn: "Volunteer",
+      lieu: "Collège/Lycée Parenthèse — LMS, business plan, soutien pédagogique",
+    },
+    {
+      periode: "Juil. 2016 – Juin 2021",
+      periodeEn: "Jul. 2016 – Jun. 2021",
+      role: "Animatrice",
+      roleEn: "Activity leader",
+      lieu: "Les Petits Débrouillards, Strasbourg",
+    },
+    {
+      periode: "Avr. – Nov. 2017",
+      periodeEn: "Apr. – Nov. 2017",
+      role: "Service Civique",
+      roleEn: "Civil service",
+      lieu: "Alsace Digitale, Strasbourg",
+    },
+  ],
+};
