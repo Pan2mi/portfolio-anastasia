@@ -15,6 +15,15 @@ export const parcours = {
       lieu: "Université de Lorraine, Nancy",
     },
     {
+      periode: "Juil. 2021 – Janv. 2023",
+      periodeEn: "Jul. 2021 – Jan. 2023",
+      poste: "Formatrice sur la question du genre",
+      posteEn: "Gender awareness trainer",
+      lieu: "IFSI Saint Vincent, Strasbourg",
+      description: "Conception et animation d'un cours de sensibilisation aux questions de genre (représentations, transidentité, intersexuation, parcours médicaux) pour des étudiants infirmiers et aides-soignants",
+      descriptionEn: "Design and delivery of a gender awareness course (representations, trans identity, intersex conditions, medical pathways) for nursing and care assistant students",
+    },
+    {
       periode: "Fév. 2021 – Avr. 2022",
       periodeEn: "Feb. 2021 – Apr. 2022",
       poste: "Ingénieure pédagogique",
@@ -60,6 +69,15 @@ export const parcours = {
     },
   ],
   engagement: [
+    {
+      periode: "Depuis juil. 2026",
+      periodeEn: "Since Jul. 2026",
+      role: "Bénévole — Conception de contenus e-learning",
+      roleEn: "Volunteer — E-learning content designer",
+      lieu: "Association Hope Sphère",
+      description: "Conception de modules de formation digitale pour l'inclusion d'élèves en situation de handicap ayant des troubles neuro-développementaux (TDAH, TSA, troubles Dys)",
+      descriptionEn: "Design of digital training modules for the inclusion of students with disabilities and neurodevelopmental disorders (ADHD, ASD, Dys disorders)",
+    },
     {
       periode: "Depuis sept. 2025",
       periodeEn: "Since Sept. 2025",
